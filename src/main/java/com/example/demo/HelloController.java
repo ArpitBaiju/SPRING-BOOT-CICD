@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/")
     public String home() { 
-        return "App Running"; 
+        return "App Running - version 2"; 
     }
 }
